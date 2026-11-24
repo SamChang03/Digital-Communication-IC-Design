@@ -1,10 +1,11 @@
 # Digital Communication IC Design (DCIC)
 
-Coursework for **Digital Communication IC Design (數位通訊積體電路設計)**, National Tsing Hua University, Fall 2025 (114-1).
+My homework and final project for **Digital Communication IC Design** (數位通訊積體電路設計) at National Tsing Hua University (Fall 2025). The assignments build an IEEE 802.11-style OFDM baseband receiver step by step: a split-radix FFT, then floating- and fixed-point MATLAB models, then Verilog RTL. The final project extends it into a 2×2 MIMO-OFDM receiver.
 
-The assignments build an IEEE 802.11-style OFDM baseband receiver step by step: from a split-radix FFT, through floating- and fixed-point MATLAB models, to Verilog RTL. The final project extends it into a 2×2 MIMO-OFDM receiver.
+- **Instructor:** Prof. Yuan-Hao Huang (黃元豪)
+- **Author:** Yu-Shuo Chang (張育碩)
 
-## Repository layout
+## Assignments at a glance
 
 | Folder | Topic | Contents |
 |---|---|---|
@@ -51,6 +52,3 @@ The design was also synthesized and taken through APR in a 90 nm standard-cell f
 
 MATLAB / Simulink, Synopsys VCS, Synopsys Design Compiler, Xilinx Vivado
 
-## Author
-
-張育碩 (Yu-Shuo Chang), Department of Electrical Engineering, NTHU
