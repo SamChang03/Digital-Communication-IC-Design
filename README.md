@@ -41,7 +41,12 @@ Each homework folder has a `report/` folder with the submitted report (PDF).
 | HW4 OFDM receiver | 7,768 | 8,250 | 30 | 0 | — |
 | Final MIMO-OFDM receiver | 7,065 | 3,650 | 244 | 12 | +0.453 ns |
 
-The design was also synthesized and taken through APR in a 90 nm standard-cell flow (see the final report and `figures/layout.jpg`).
+The design was also synthesized and taken through APR in a 90 nm standard-cell flow (die about 1.25 mm × 1.25 mm). Details are in the final report.
+
+<p align="center">
+  <img src="Final-MIMO-OFDM/figures/layout.jpg" width="480" alt="MIMO-OFDM receiver layout"><br>
+  <em>Layout: MIMO detection (zero-forcing), channel estimation and preprocessing, two FFTs, frame detector, matched filter, and output buffer.</em>
+</p>
 
 ## Not included
 
