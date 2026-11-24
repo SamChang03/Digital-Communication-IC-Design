@@ -1,0 +1,30 @@
+# MATLAB / Simulink
+slprj/
+*.asv
+*.slxc
+*.mexw64
+*.autosave
+*.original
+
+# Simulation / synthesis outputs
+*.log
+!**/reports/**/*.log
+csrc/
+simv*
+*.vpd
+*.fsdb
+ucli.key
+work/
+*.svf
+command.log
+netlist/
+
+# Vivado
+.Xil/
+*.jou
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
